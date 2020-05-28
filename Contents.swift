@@ -2,13 +2,13 @@ import UIKit
 
 
 
-struct Choice {
+struct Beverage {
     
     enum Whiskey {
         case Irish, Scotch, Japanese, Canadian, Bourbon, Tennessee, Rye, Blended, SingleMalt
     }
     
-    static func myChoice(is liquor: Whiskey) -> String {
+    static func description(for liquor: Whiskey) -> String {
         switch liquor {
         case .Irish:
             return "It has a smoother flavor than other types of whiskey. It's a whiskey that's easy to sip neat or on the rock and has a caramel coloring."
@@ -31,5 +31,5 @@ struct Choice {
         }
     }
 }
-let ownersChoice = Choice.myChoice(is: .Japanese)
+let ownersChoice = Beverage.description(for: .Japanese)
 print(ownersChoice)
