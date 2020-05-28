@@ -11,7 +11,7 @@ struct Choice {
     static func myChoice(is liquor: Whiskey) -> String {
         switch liquor {
         case .Irish:
-            return "It has a smoother flavor than othet types of whiskey. It's a whiskey that's easy to sip neat or on the rock and has a caramel coloring."
+            return "It has a smoother flavor than other types of whiskey. It's a whiskey that's easy to sip neat or on the rock and has a caramel coloring."
         case .Scotch:
             return "The Scots are serious about making their whiskey's and have laws that distillers must follow. It must age in an oak barrel for at least three years. It makes an excellent after dinner drink."
         case .Japanese:
