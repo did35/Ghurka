@@ -1,10 +1,13 @@
 import UIKit
 
-enum Whiskey {
-    case Irish, Scotch, Japanese, Canadian, Bourbon, Tennessee, Rye, Blended, SingleMalt
-}
+
 
 struct Choice {
+    
+    enum Whiskey {
+        case Irish, Scotch, Japanese, Canadian, Bourbon, Tennessee, Rye, Blended, SingleMalt
+    }
+    
     static func myChoice(is liquor: Whiskey) -> String {
         switch liquor {
         case .Irish:
